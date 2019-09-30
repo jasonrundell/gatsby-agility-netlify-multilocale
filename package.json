@@ -1,0 +1,34 @@
+{
+  "name": "gatsby-agility-netlify-multilocale",
+  "private": true,
+  "description": "A Gatsby + AgilityCMS + Netlify bolierplate multi-locale project.",
+  "version": "0.1.0",
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write src/**/*.{js,jsx}",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\""
+  },
+  "dependencies": {
+    "@agility/content-fetch": "^0.5.1",
+    "@agility/gatsby-source-agilitycms": "^0.2.0",
+    "dotenv": "^8.1.0",
+    "gatsby": "^2.13.45",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "truncate-html": "^1.0.2"
+  },
+  "devDependencies": {
+    "prettier": "^1.18.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/agility/agility-gatsby-starter"
+  },
+  "bugs": {
+    "url": "https://github.com/gatsbyjs/gatsby/issues"
+  }
+}
