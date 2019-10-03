@@ -5,6 +5,7 @@ require('dotenv').config({
 const agilityConfig = {
   guid: process.env.AGILITY_GUID,
   accessToken: process.env.AGILITY_API_KEY,
+  isPreview: process.env.AGILITY_API_ISPREVIEW
 }
 
 module.exports = {
@@ -17,6 +18,7 @@ module.exports = {
       options: {
         guid: agilityConfig.guid, //your Agility Content Fetch API Guid
         apiKey: agilityConfig.accessToken, //your Agility Content Fetch API Key
+        isPreview: agilityConfig.isPreview, //set this to true if you are using the preview API Key
         sharedContent: ['posts', 'globalheader'], //a list of reference names you want to include in your GraphQL store
         languages: ['en-us', 'fr-ca'], //the languages you want to include
         channels: ['website'], //the channels you want to include
