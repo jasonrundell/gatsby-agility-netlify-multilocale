@@ -2,20 +2,20 @@
 # yarn lockfile v1
 
 
-"@agility/content-fetch@^0.5.1":
-  version "0.5.4"
-  resolved "https://registry.npmjs.intuit.net:443/artifactory/api/npm/npm-intuit/@agility/content-fetch/-/content-fetch-0.5.4.tgz#22c749475df02931ec62eed694055cb5ec09a648"
-  integrity sha1-IsdJR13wKTHsYu7WlAVctewJpkg=
+"@agility/content-fetch@^0.5.5":
+  version "0.5.9"
+  resolved "https://registry.yarnpkg.com/@agility/content-fetch/-/content-fetch-0.5.9.tgz#914828c80848164028c818c1eb851587335a9861"
+  integrity sha512-MvWI++TKaXcdXAfz3Di0gnV++QLmV3BghYnGsxThMY1VpDzujbBbFaMltFvdVDXqzldAHtk9mwU7tDAqbcYEbA==
   dependencies:
     axios "^0.18.0"
     axios-cache-adapter "^2.3.0"
 
-"@agility/gatsby-source-agilitycms@^0.2.0":
-  version "0.2.1"
-  resolved "https://registry.npmjs.intuit.net:443/artifactory/api/npm/npm-intuit/@agility/gatsby-source-agilitycms/-/gatsby-source-agilitycms-0.2.1.tgz#ea2f83696d183d78ba4214c0631eee507fb7005c"
-  integrity sha1-6i+DaW0YPXi6QhTAYx7uUH+3AFw=
+"@agility/gatsby-source-agilitycms@^0.2.3":
+  version "0.2.3"
+  resolved "https://registry.yarnpkg.com/@agility/gatsby-source-agilitycms/-/gatsby-source-agilitycms-0.2.3.tgz#6aae5d6868cdfa89220047e6a2f13fcca2e2768b"
+  integrity sha512-3pYWQZI/soPYUi6cQWGmrc6Nbqu9OqLVNmusDWyy9t124xzVhMB9vCgJWpX/gyxK5ZStPWm6zP2wifkS7mEZEA==
   dependencies:
-    "@agility/content-fetch" "^0.5.1"
+    "@agility/content-fetch" "^0.5.5"
 
 "@babel/code-frame@^7.0.0", "@babel/code-frame@^7.5.5":
   version "7.5.5"
@@ -1151,9 +1151,9 @@ acorn-jsx@^5.0.0:
   integrity sha512-HJ7CfNHrfJLlNTzIEUTj43LNWGkqpRLxm3YjAlcD0ACydk9XynzYsCBHxut+iqt+1aBXkx9UP/w/ZqMr13XIzg==
 
 acorn@^5.0.0, acorn@^5.6.2:
-  version "5.7.3"
-  resolved "https://registry.yarnpkg.com/acorn/-/acorn-5.7.3.tgz#67aa231bf8812974b85235a96771eb6bd07ea279"
-  integrity sha512-T/zvzYRfbVojPWahDsE5evJdHb3oJoQfFbsrKM7w5Zcs++Tr257tia3BmMP8XYVjp1S9RZXQMh7gao96BlqZOw==
+  version "5.7.4"
+  resolved "https://registry.yarnpkg.com/acorn/-/acorn-5.7.4.tgz#3e8d8a9947d0599a1796d10225d7432f4a4acf5e"
+  integrity sha512-1D++VG7BhrtvQpNbBzovKNc1FLGGEE/oGe7b9xJm/RFHMBeUaUGpluV9RLjZa47YFdPcDAenEYuq9pQPcMdLJg==
 
 acorn@^6.0.7:
   version "6.2.1"
