@@ -16,7 +16,7 @@
     "@agility/content-fetch": "^0.5.5",
     "@agility/gatsby-source-agilitycms": "^0.2.3",
     "dotenv": "^8.1.0",
-    "gatsby": "^2.13.45",
+    "gatsby": "^5.7.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "truncate-html": "^1.0.2"
